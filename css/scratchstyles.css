@@ -1,0 +1,72 @@
+body{
+    color: black;
+    background-color:lightgrey;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.navbar {
+    background-color:white;
+    padding: 5px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(14, 13, 13);
+}
+    
+.navbar a{
+    color:darkblue;
+}
+    
+.navbar a:hover{
+        background-color: rgb(128, 128, 192);
+        border-radius: 20px;
+}
+h1{
+    color:darkblue;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.image{
+    text-align: center;
+    position: relative;
+    max-width: fit-content;
+    max-height: fit-content;
+    background-color:rgb(78, 78, 99);
+    padding: 10px;
+    margin: auto; /* Center horizontally */
+    border: 1px solid #ccc;
+}
+.tableau-container {
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    height: 100vh;            
+}
+
+.tableauPlaceholder {
+    width: 900px;  
+    height: 927px; 
+}
+.video{
+    text-align: center;
+}
+
+.footer{
+    padding: 5px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer a{
+    color:darkblue;
+}
+    
+.footer a:hover{
+        background-color:rgb(128, 128, 192);
+        border-radius: 20px;
+}
+.orderlist{
+    font-weight: bold;
+    color:rgb(78, 68, 145);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
